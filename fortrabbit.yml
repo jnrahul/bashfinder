@@ -1,0 +1,10 @@
+---
+version: 2
+pre:
+  path: artisan
+  args:
+    - migrate:refresh --seed --force
+composer:
+  prefer-source: false
+  no-plugins: false
+  no-scripts: false
